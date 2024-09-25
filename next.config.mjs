@@ -4,6 +4,9 @@ const nextConfig = {
         config.cache = false;
         return config;
       },
+      images: {
+        domains: ["cdn.imagin.studio"]
+    }
 };
 
 export default nextConfig;
